@@ -1,13 +1,13 @@
 export class Api {
 	// API_URL = "https://localhost:3000/api/";
-	API_URL = "https://mvpstudioreacttemplate20240506134701.azurewebsites.net/api/";
+	API_URL = "https://reactonboarding.azurewebsites.net/api/";
 	HEADERS = {
 		"Accept": "application/json",
 		"Content-Type": "application/json",
 	};
 
 	constructor() {
-		if (window.location.host !== "mvpstudioreacttemplate20240506134701.azurewebsites.net") {
+		if (window.location.host !== "reactonboarding.azurewebsites.net") {
 			// console.log(window.location.host);
 			this.API_URL = "https://localhost:3000/api/";
 		}
